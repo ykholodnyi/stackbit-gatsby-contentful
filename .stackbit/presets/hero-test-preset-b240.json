@@ -1,0 +1,31 @@
+{
+    "model": "hero",
+    "srcType": "contentful",
+    "srcProjectId": "loqqa56k7ryh",
+    "presets": [
+        {
+            "label": "Test preset",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "Category 1"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "heading": "This is your main value proposition?!",
+                "body": "And a super compelling supporting paragraph (fetched from Contentful) that makes the user immediately want to click the button below.",
+                "image": {
+                    "$$ref": "o1G1j1B3fpZyVGa33M1zJ",
+                    "$$type": "__image_model"
+                },
+                "button": {
+                    "$$ref": "36U7omnF7aFEHjVKwEhJI7",
+                    "$$type": "button"
+                },
+                "theme": "imgRight"
+            },
+            "thumbnail": "images/hero-test-preset-b240.png"
+        }
+    ]
+}
